@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script src="scripts/code.js"></script>
+    <title>Wordle</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1857119985098876"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "game" style="text-align:center;">
+        
+        <table id="tabela" class="demo" style="margin: auto">
+            <caption style="font-size: 44px">Wordle Portugues</caption>
+            <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tbody>
+        </table>
+
+        <form name="teclas" action="#">
+            <input type="button" value="q" onclick="Digitar(this.value)" id="1" />&nbsp;
+            <input type="button" value="w" onclick="Digitar(this.value)" id="2" />&nbsp;
+            <input type="button" value="e" onclick="Digitar(this.value)" id="3" />&nbsp;
+            <input type="button" value="r" onclick="Digitar(this.value)" id="4" />&nbsp;
+            <input type="button" value="t" onclick="Digitar(this.value)" id="5" />&nbsp;
+            <input type="button" value="y" onclick="Digitar(this.value)" id="6" />&nbsp;
+            <input type="button" value="u" onclick="Digitar(this.value)" id="7" />&nbsp;
+            <input type="button" value="i" onclick="Digitar(this.value)" id="8" />&nbsp;
+            <input type="button" value="o" onclick="Digitar(this.value)" id="9" />&nbsp;
+            <input type="button" value="p" onclick="Digitar(this.value)" id="10" />&nbsp;
+            <br><br>
+            <input type="button" value="a" onclick="Digitar(this.value)" id="11" />&nbsp;
+            <input type="button" value="s" onclick="Digitar(this.value)" id="12" />&nbsp;
+            <input type="button" value="d" onclick="Digitar(this.value)" id="13" />&nbsp;
+            <input type="button" value="f" onclick="Digitar(this.value)" id="14" />&nbsp;
+            <input type="button" value="g" onclick="Digitar(this.value)" id="15" />&nbsp;
+            <input type="button" value="h" onclick="Digitar(this.value)" id="16" />&nbsp;
+            <input type="button" value="j" onclick="Digitar(this.value)" id="17" />&nbsp;
+            <input type="button" value="k" onclick="Digitar(this.value)" id="18" />&nbsp;
+            <input type="button" value="l" onclick="Digitar(this.value)" id="19" />&nbsp;
+            <input type="button" value="back" onclick="Remove('')" style="width: 120px;"/>
+            <br><br>
+            <input type="button" value="z" onclick="Digitar(this.value)" id="20" style="margin-left: 60px;" />&nbsp;
+            <input type="button" value="x" onclick="Digitar(this.value)" id="21" />&nbsp;
+            <input type="button" value="c" onclick="Digitar(this.value)" id="22" />&nbsp;
+            <input type="button" value="v" onclick="Digitar(this.value)" id="23" />&nbsp;
+            <input type="button" value="b" onclick="Digitar(this.value)" id="24" />&nbsp;
+            <input type="button" value="n" onclick="Digitar(this.value)" id="25" />&nbsp;
+            <input type="button" value="m" onclick="Digitar(this.value)" id="26" />&nbsp;
+            <input type="button" value="enter" onclick="Enter()" style="width: 120px;" />
+          </form>
+    </div>
+    <div id = "hidden" style="display: none; text-align: center">
+        <input id = "restart" type="button" value="restart" onclick="window.location.reload()" style="width: 200px; margin-top: 60px" />
+    </div>
+</body>
+</html>

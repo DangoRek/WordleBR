@@ -1,0 +1,36 @@
+.demo {
+    border:1px sólido #C0C0C0;
+    border-collapse:colapso;
+    padding:5px;
+}
+.demo th {
+    border:1px sólido #C0C0C0;
+    padding:5px;
+    background:#F0F0F0;
+}
+.demo td {
+    border:1px sólido #C0C0C0;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background:#F0F0F0;
+    color:#454543;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+}
+input {
+    width: 50px;
+    height: 50px;
+    background:#F0F0F0;
+    color:#454543;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+}
+body{
+    background:#454543;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 20px;
+}
