@@ -10,7 +10,7 @@ function validarPalavra(){
     }
     
     var settings = {
-        "url": "http://localhost:3000/ver",
+        "url": "https://wordle-noe.herokuapp.com/ver",
         "method": "POST",
         "timeout": 0,
         "headers": {
@@ -28,7 +28,7 @@ function validarPalavra(){
 }
 function consultarEstatistica(num){
     var settings = {
-        "url": "http://localhost:3000/estatistica",
+        "url": "https://wordle-noe.herokuapp.com/estatistica",
         "method": "GET",
         "timeout": 0,
       };
