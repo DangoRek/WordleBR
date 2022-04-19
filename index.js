@@ -4,14 +4,15 @@ const cors = require('cors')
 const cronJob = require('cron').job;
 const app = express();         
 const bodyParser = require('body-parser')
-const port = 3000; //porta padrão
+//const port = 3000; //porta padrão
+const port = process.env.PORT || 3000;
 let vit = 5;
 let derr = 3;
 
 //inicia o servidor
 app.listen(port);
 console.log('API funcionando!');
-
+console.log(port)
 //definindo palavra
 let palavra = randPalavra();
 //let palavra = 'campo'
